@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.container {
+  display:flex;
+  flex-direction: column;
+  margin: 0;
+  background-color:hsl(120, 100%, 10%);
+  background-image:url(images/newfon.png);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: solid;
+  font-size: 40px;
+  border: 70px solid black;
+  border-image:url(Images/wood1.jpg) 33% round;   
+}
+#logo {
+  position: relative;
+  float: left;
+ left: 50px;
+ top: 25px;
+ 
+}
+
+#name {
+  position: relative;
+  top: 25px;
+  
+}
+.logo>p {
+  margin:0;
+  padding-top: -20px;
+  text-align: right;
+  padding-right: 20px;
+
+}
+
+.drinks{
+    display:drinks;
+    height: auto;
+    
+}
+p{text-align: left;
+font-size: 20px;}
+/*.drinks > p {
+  padding-left: 20px;
+  font-size: 20px;
+  text-align: left;
+}*/
+.food{
+    display:food;
+    height: auto;
+    
+}
+/*.food > p {
+  padding-left: 20px;
+  font-size: 30px;
+  text-align: left;
+}*/
+.footer{
+    display:footer;
+    height: 40px;
+    text-align: right;
+    padding-right:10px;
+}
+* {box-sizing:border-box}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 80%;
+ 
+  position: relative;
+  margin: auto;
+  display:inline-block;
+  
+  
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  margin-top: -22px;
+  margin-left: -50%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px; /*ширина и высота зоны*/
+  position: absolute;
+  bottom: 55px; /*отступ снизу*/
+  width: 80%;
+  text-align: left;
+  background-color:hsl(120, 80%, 42%) ;
+  
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  
+}
+
+/* The dots/bullets/indicators */
+.dotposition{
+position: absolute;
+top:92%;
+left: 45%;
+}
+.dot {
+text-align: center;
+
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin:  -25px 0px 0px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+  
+}
+
+/* Fading animation */
+/*.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}*/
+.slideshow-container1 {
+  max-width: 80%;
+  
+  position: relative;
+  margin: auto;
+  display:inline-block;
+ 
+  
+  
+}
+
+/* Hide the images by default */
+.mySlides1 {
+  
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  margin-top: -22px;
+  margin-left: -50%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover, .next1:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text1 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px; /*ширина и высота зоны*/
+  position: absolute;
+  bottom: 55px; /*отступ снизу*/
+  width: 80%;
+  text-align: left;
+  background-color:hsl(120, 80%, 42%) ;
+  
+}
+
+/* Number text (1/3 etc) */
+.numbertext1 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  
+}
+
+/* The dots/bullets/indicators */
+.dotposition1{
+position: absolute;
+top:92%;
+left: 45%;
+}
+.dot1 {
+text-align: center;
+
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin:  -25px 0px 0px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active1, .dot1:hover {
+  background-color: #717171;
+  
+}
+
+@media (max-width: 1200px){
+  .container{
+  border: 30px solid black;
+  border-image:url(Images/wood1.jpg) 33% round;  
+  font-size :30px;
+  }
+  p{
+    font-size: 20px;}
+}
