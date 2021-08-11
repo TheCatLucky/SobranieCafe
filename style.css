@@ -17,10 +17,10 @@
   border-image:url(Images/wood1.jpg) 33% round;   
 }
 #logo {
-  position: relative;
-  float: left;
- left: 50px;
- top: 25px;
+position: relative;
+float: left;
+left: 50px;
+top: 25px;
  
 }
 
@@ -140,7 +140,7 @@ font-size: 20px;}
 /* The dots/bullets/indicators */
 .dotposition{
 position: absolute;
-top:92%;
+top:90%;
 left: 45%;
 }
 .dot {
@@ -248,12 +248,11 @@ transition: background-color 0.6s ease;
 /* The dots/bullets/indicators */
 .dotposition1{
 position: absolute;
-top:92%;
+top:90%;
 left: 45%;
 }
 .dot1 {
 text-align: center;
-
 cursor: pointer;
 height: 15px;
 width: 15px;
@@ -274,7 +273,16 @@ transition: background-color 0.6s ease;
   border: 30px solid black;
   border-image:url(Images/wood1.jpg) 33% round;  
   font-size :30px;
+  flex-direction:column;
   }
   p{
-    font-size: 20px;}
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  #logo{
+    left:35%;
+  }
+  .time{
+    padding-top: 10px;
+  }
 }
