@@ -268,19 +268,30 @@ transition: background-color 0.6s ease;
   
 }
 
-@media (max-width: 1200px){
+@media (max-width: 800px){
   .container{
+  
   border: 30px solid black;
   border-image:url(Images/wood1.jpg) 33% round;  
   font-size :30px;
   flex-direction:column;
+  
   }
   p{
     font-size: 14px;
     padding-bottom: 10px;
   }
   #logo{
-    left:35%;
+    position:absolute;
+    margin: auto;
+    transform:scale(0.5);
+  }
+  
+  #name{
+    
+    margin: auto;    
+    height: 75px;
+    transform:scale(0.5);
   }
   .time{
     padding-top: 10px;
