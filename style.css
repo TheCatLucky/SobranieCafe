@@ -10,7 +10,7 @@
   overflow-x: hidden;
   overflow-y: hidden;
   margin: 0;
-  background-color:hsl(120, 100%, 10%);
+  background-color:#37461d;
   background-image:url(Images/newfon.png);
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
@@ -48,6 +48,7 @@ top: 25px;
 p{
   padding-bottom: 20px;
   padding-left: 20px;
+  padding-right: 20px;
   text-align: left;
   font-size: 20px;
 }
@@ -71,7 +72,7 @@ p{
 
 /* Slideshow container */
 .slideshow-container, .slideshow-container1 {
-  width: 80%;
+  width: 50%;
   position: relative;
   margin: auto;
   display:inline-block;
@@ -172,95 +173,7 @@ transition: background-color 0.6s ease;
   from {opacity: .4}
   to {opacity: 1}
 }
-/*.slideshow-container1 {
-  max-width: 80%;
-  
-  position: relative;
-  margin: auto;
-  display:inline-block;
- 
-  
-  
-}
 
-/* Hide the images by default */
-.mySlides1 {
-  
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev1, .next1 {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: 50px;
-  margin-top: -22px;
-  margin-left: -50%;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next1 {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev1:hover, .next1:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text1 {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px; /*ширина и высота зоны*/
-  position: absolute;
-  bottom: 55px; /*отступ снизу*/
-  width: 80%;
-  text-align: left;
-  background-color:hsl(120, 80%, 42%) ;
-  
-}
-
-/* Number text (1/3 etc) */
-.numbertext1 {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-  
-}
-
-/* The dots/bullets/indicators */
-.dotposition1{
-position: absolute;
-top:90%;
-left: 45%;
-}
-.dot1 {
-text-align: center;
-cursor: pointer;
-height: 15px;
-width: 15px;
-margin:  -25px 0px 0px;
-background-color: #bbb;
-border-radius: 50%;
-display: inline-block;
-transition: background-color 0.6s ease;
-}
-
-.active1, .dot1:hover {
-  background-color: #717171;
-  
-}
 
 @media (max-width: 920px){
   .container{
@@ -287,6 +200,9 @@ transition: background-color 0.6s ease;
     height: 75px;
     transform:scale(0.5);
   }
+  .slideshow-container, .slideshow-container1{
+    width:70%;
+  }
   .time{
     padding-top: 10px;
   }
@@ -306,5 +222,67 @@ transition: background-color 0.6s ease;
     padding: 8px 12px;
     bottom:35px;
     background-color:hsla(120, 1%, 50%, 0.5) ;
+  }
+}
+@media (max-width: 400px){
+  .container{
+  
+  border: 20px solid black;
+  border-image:url(Images/wood1.jpg) 33% round;  
+  font-size :18px;
+  flex-direction:column;
+  
+  }
+  p{
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+  #logo{
+    position:absolute;
+    top: 10%;
+    left: 0%;
+    transform:scale(0.4);
+  }
+  
+  #name{
+       
+    height: 75px;
+    transform:scale(0.4);
+  }
+  .slideshow-container, .slideshow-container1{
+    width:80%;
+  }
+  .time{
+    padding-top: 10px;
+  }
+  .next, .next1{
+    font-size:8px;
+    width:10px;
+    padding: 8px 8px 8px 5px;
+  }
+  .prev, .prev1 {
+    font-size:8px;
+    width:10px;
+    padding: 8px 8px 8px 5px;
+  }
+  .dot, .dot1{
+    height: 8px;
+    width: 8px;
+  }
+  .dotposition, .dotposition1{
+    top: 85%;
+  }
+  .footer{
+    font-size: 8px;
+    height: 10px;
+  }
+  .text, .text1{
+    font-size: 10px;
+    padding: 3px 8px;
+    bottom:35px;
+    background-color:hsla(120, 1%, 50%, 0.5) ;
+  }
+  .numbertext,.numbertext1{
+    font-size:10px;
   }
 }
