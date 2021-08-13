@@ -45,12 +45,21 @@ top: 25px;
   height: auto;
     
 }
+a:hover{
+  color: dodgerblue;
+}
+#telephone {
+  position: relative;
+  margin-bottom: px;
+  padding-right: 5px;
+}
 p{
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: left;
   font-size: 20px;
+  
 }
 
 .food{
@@ -175,114 +184,3 @@ transition: background-color 0.6s ease;
 }
 
 
-@media (max-width: 920px){
-  .container{
-  
-  border: 30px solid black;
-  border-image:url(Images/wood1.jpg) 33% round;  
-  font-size :20px;
-  flex-direction:column;
-  
-  }
-  p{
-    font-size: 12px;
-    padding-bottom: 10px;
-  }
-  #logo{
-    position:absolute;
-    top: 10%;
-    left: 0%;
-    transform:scale(0.5);
-  }
-  
-  #name{
-       
-    height: 75px;
-    transform:scale(0.5);
-  }
-  .slideshow-container, .slideshow-container1{
-    width:70%;
-  }
-  .time{
-    padding-top: 10px;
-  }
-  .dot, .dot1{
-    height: 10px;
-    width: 10px;
-  }
-  .dotposition, .dotposition1{
-    top: 85%;
-  }
-  .footer{
-    font-size: 8px;
-    height: 10px;
-  }
-  .text, .text1{
-    font-size: 12px;
-    padding: 8px 12px;
-    bottom:35px;
-    background-color:hsla(120, 1%, 50%, 0.5) ;
-  }
-}
-@media (max-width: 400px){
-  .container{
-  
-  border: 20px solid black;
-  border-image:url(Images/wood1.jpg) 33% round;  
-  font-size :18px;
-  flex-direction:column;
-  
-  }
-  p{
-    font-size: 10px;
-    padding-bottom: 10px;
-  }
-  #logo{
-    position:absolute;
-    top: 10%;
-    left: 0%;
-    transform:scale(0.4);
-  }
-  
-  #name{
-       
-    height: 75px;
-    transform:scale(0.4);
-  }
-  .slideshow-container, .slideshow-container1{
-    width:80%;
-  }
-  .time{
-    padding-top: 10px;
-  }
-  .next, .next1{
-    font-size:8px;
-    width:10px;
-    padding: 8px 8px 8px 5px;
-  }
-  .prev, .prev1 {
-    font-size:8px;
-    width:10px;
-    padding: 8px 8px 8px 5px;
-  }
-  .dot, .dot1{
-    height: 8px;
-    width: 8px;
-  }
-  .dotposition, .dotposition1{
-    top: 85%;
-  }
-  .footer{
-    font-size: 8px;
-    height: 10px;
-  }
-  .text, .text1{
-    font-size: 10px;
-    padding: 3px 8px;
-    bottom:35px;
-    background-color:hsla(120, 1%, 50%, 0.5) ;
-  }
-  .numbertext,.numbertext1{
-    font-size:10px;
-  }
-}
